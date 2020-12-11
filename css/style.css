@@ -163,19 +163,24 @@ img{
     background: url('../img/arrow-menu.svg') 0% 40% no-repeat;
 }
 
+.menu-des{
+    display: flex;
+}
+
 .mobile-menu {
-    position: fixed;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 0 16px;
     top: 0;
-    background-color: #27ae60;
+    background-color: none;
     left: 0;
     right: 0;
     height: 50px;
     z-index: 9999999;
     display: none;
+    width: 1000px;
   }
   .mobile-menu__btn {
     position: relative;
@@ -186,6 +191,7 @@ img{
     height: 30px;
     cursor: pointer;
     transition: .4s;
+    float: right;
   }
   .mobile-menu__icon {
     display: block;
@@ -216,15 +222,15 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 50px;
-    left: 0;
+    width: 300px;
+    top: 90px;
     right: 0;
     z-index: 999;
     height: 0;
     opacity: 1;
     transition: .5s;
     overflow: hidden;
-    background-color: #27ae60;
+    background-color: #90D7EE;
   }
   .mobile-menu__list {
     transition: .5s;
@@ -262,6 +268,10 @@ img{
   .mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::before {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+  }
+
+  .mobile-menu__btn{
+      top: -45px;
   }
 
 /* Стили основного контента */
@@ -1475,6 +1485,10 @@ img{
         margin-right: 25px;
     }
 
+    .header-container{
+        width: 1420px;
+    }
+
     .logo{
         margin-left: 10px;
     }
@@ -1512,10 +1526,105 @@ img{
     }
 }
 
-@media (max-width: 1024px){
-    .container{
-        /* max-width: 690px; */
+@media (max-width: 1025px){
+    .mobile-menu{
+        display: block;
     }
+
+    .menu-des{
+        display: none;
+    }
+
+    .header-container{
+        width: 1000px;
+    }
+
+    .container{
+        width: 1000px;
+    }
+
+    .top-section{
+        padding-top: 100px;
+    }
+
+    .main-caption{
+        font-size: 75px;
+    }
+
+    .main-subtitle{
+        font-size: 35px
+    }
+    
+    .top-text{
+        width: 610px;
+        margin-left: 190px;
+    }
+
+    .caption-section-slide{
+        left: 55px;
+        width: 410px;
+    }
+
+    .bullet::after{
+        width: 420px;
+    }
+
+    .swiper-pagination-bullet{
+        margin-right: 70px !important;
+        left: 630px;
+        top: 800px;
+    }
+    
+    .sphere-caption{
+        font-size: 35px;
+    }
+
+    .retail-card,.digital-card,.public-card{
+        margin-left: 60px;
+        margin-right: 80px;
+    }
+
+    .beauty-card{
+        padding-bottom: 265px;
+    }
+
+    .farm-card{
+        padding-bottom: 195px;
+    }
+    
+    .med-card{
+        padding-bottom: 260px;
+    }
+
+    .sphere-btn{
+        margin-left: 275px
+    }
+
+    .public-card,.med-card{
+        margin-top: 0;
+    }
+
+    .choose-caption{
+        font-size: 35px
+    }
+
+    .choose-text-1{
+        font-size: 21px;
+    }
+
+    .choose-description{
+        font-size: 21px;
+    }
+
+    .big-container {
+        width: 1020px;
+    }
+
+    .contact-caption{
+        font-size: 35px;
+        line-height: 70px;
+    }
+
 }
 
 @media (max-width: 667px){
