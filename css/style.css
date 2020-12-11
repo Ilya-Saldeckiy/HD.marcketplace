@@ -1,0 +1,1370 @@
+/* Общие стили */
+
+html{
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'VinSansPro',Helvetica;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 32px;
+    padding-top: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+.list-reset{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.big-container{
+    position: relative;
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.header-container{
+    position: relative;
+    margin: 0 auto;
+    width: 1600px;
+    padding: 0;
+}
+
+.main-caption{
+	color:#F29F05;
+    font-size: 90px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 150px;
+    font-family: "VinSansPro";
+}
+
+.main-caption::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "VinSansPro";
+}
+
+.main-caption::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "VinSansPro";
+}
+
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Стили шапки */
+
+
+.header{
+    padding-top: 25px;
+    margin-top: 0px;
+    background-color: #000000;
+    height: 90px;
+}
+
+.logo{
+    margin-top: 0px;
+    font-size: 25px;
+    color: #F29F05;
+    margin-right: 40px;
+    font-weight: 350;
+    font-family: "VinSansPro";
+}
+
+.logo::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.logo::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-list{
+    display: flex;
+    color: #ffffff;
+}
+
+.menu-list-item:not(:last-child){
+    margin-right: 45px;
+}
+
+.menu-list-item a{
+    color: #ffffff;
+    font-family: Helvetica;
+}
+
+.submenu{
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    display: none;
+}
+
+.menu-list > .language-select:hover > .submenu{
+    display: block;
+}
+
+.language-select::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url('../img/arrow-menu.svg') 0% 40% no-repeat;
+}
+
+/* Стили основного контента */
+
+/* section-1 */
+.top-section{
+    background: url('../img/bg-section-1.png') no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-top: 260px;
+    padding-bottom: 195px;
+    text-align: center;
+}
+
+.main-subtitle{
+    text-align: center;
+    font-weight: 350;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 135px;
+    margin-bottom: -15px;
+    font-family: "VinSansPro";
+}
+
+.select-text{
+    color: #90D7EE;
+}
+
+.main-subtitle::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    font-size: px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.main-subtitle::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.top-text{
+    width: 800px;
+    color: #ffffff;
+    margin-left: 215px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 45px;
+}
+
+.top-btn{
+    font-size: 24px;
+    color: #ffffff;
+    background: none;
+    border: 1px solid #B8D941;
+    width: 430px;
+    height: 90px;
+}
+
+.top-btn::before{
+    content: " ";
+    background: url('../img/icon-btn.svg') no-repeat;
+    width: 32px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    margin-right: 20px;
+}
+
+/* section-2 */
+
+.Advantages-section{
+    padding-top: 0px;
+    background: url('../img/bg-slider-section.png') no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.slider-posititon{
+    display: flex;
+}
+
+.Advantages-slider{
+    width: 650px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.slider-prog-list-item{
+    width: 600px !important;
+    height: 500px !important;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.Advantages-wrapper{
+    height: auto !important;
+}
+
+.Advantages-slider-caption{
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 60px;
+    padding-right: 65px;
+    padding-left: 65px;
+    font-family: "VinSansPro";
+}
+
+.slider-text{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-right: 65px;
+    padding-left: 65px;
+}
+
+.select-color-slider{
+    font-weight: 700;
+}
+
+.swiper-pagination-bullet{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 0% !important;
+    background-color: #F29F05 !important;
+    margin-right: 100px !important;
+    position: relative;
+    left: 775px;
+    top: 800px;
+    z-index: 99 !important;
+}
+
+.caption-section-slide{
+    width: 665px;
+    font-size: 30px;
+    font-weight: 350;
+    color: #F29F05;
+    position: relative;
+    left: 70px;
+    top: 370px;
+    font-family: "VinSansPro";
+}
+
+.caption-section-slide::before{
+    content: "<- - -";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+    margin-right: 5px;
+}
+
+.caption-section-slide::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.bullet::after{
+    content: " ";
+    width: 600px;
+    height: 2px;
+    display: block;
+    position: relative;
+    top: 780px;
+    left: 601px;
+    background: url('../img/Vector-83.svg') no-repeat;
+    z-index: 0;
+}
+
+.Advantages-slide1{
+    background: url('../img/slider-img1.png') 18% 15% #2A2A24 no-repeat;
+    margin-right: 50px;
+}
+
+.Advantages-slide2{
+    background: url('../img/slider-img2.png') 18% 15% #2A2A24 no-repeat;
+    margin-right: 50px;
+}
+
+.Advantages-slide3{
+    background: url('../img/slider-img3.png') 18% 15% #2A2A24 no-repeat;
+    margin-right: 50px;
+}
+
+.Advantages-slide4{
+    background: url('../img/slider-img4.png') 18% 15% #2A2A24 no-repeat;
+    margin-right: 50px;
+}
+
+
+/* section-3 */
+
+.sphere-section{
+    background: #20201B;
+    padding-top: 180px;
+    padding-bottom: 60px;
+}
+
+.sphere-caption{
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 75px;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "VinSansPro";
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 90px;
+}
+
+.caption-card{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "VinSansPro";
+}
+
+.caption-card::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+
+.caption-card::after{
+    content: ">";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.list-card{
+    font-size: 20px;
+    font-weight: 350;
+    color: #ffffff;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.list-card li{
+    margin-bottom: 10px;
+}
+
+.list-card li::before{
+    content: ">";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.list-card .list-item-retail::before{
+    color: #B8D941;
+}
+
+.list-card .list-item-beauty::before{
+    color: #DB3C71;
+}
+
+.list-card .list-item-digital::before{
+    color: #9D85F2;
+}
+
+.list-card .list-item-farm::before{
+    color: #9D85F2;
+}
+
+.list-card .list-item-public::before{
+    color:  #F29F05;
+}
+
+.list-card .list-item-med::before{
+    color: #90D7EE;
+}
+
+.sphere-card{
+    width: 385px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.retail-card{
+    border: 3px solid #B8D941;
+    background: url('../img/retail.png') 50% 13% no-repeat;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.retail-caption{
+    color: #B8D941;
+}
+
+.beauty-card{
+    border: 3px solid #DB3C71;
+    background: url('../img/beauty.png') 50% 13% no-repeat;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.beauty-caption{
+    color: #DB3C71;
+}
+
+.digital-card{
+    border: 3px solid #9D85F2;
+    background: url('../img/digital.png') 50% 13% no-repeat;
+    margin-bottom: 20px;
+}
+
+.digital-caption{
+    color: #9D85F2;
+}
+
+.farm-card{
+    border: 3px solid #9D85F2;
+    background: url('../img/farm.png') 50% 13% no-repeat;
+    margin-right: 30px;
+}
+
+.farm-caption{
+    color: #9D85F2;
+}
+
+.public-card{
+    border: 3px solid #F29F05;
+    background: url('../img/cafe.png') 50% 13% no-repeat;
+    margin-right: 30px;
+    margin-top: -160px;
+    padding-bottom: 210px;
+}
+
+.public-caption{
+    color: #F29F05;
+}
+
+.med-card{
+    border: 3px solid #90D7EE;
+    background: url('../img/med.png') 50% 13% no-repeat;
+    margin-top: -120px;
+    padding-bottom: 219px;
+}
+
+.med-caption{
+    color: #90D7EE;
+}
+
+.sphere-btn{
+    width: 410px;
+    height: 80px;
+    background-color: #B8D941;
+    color: #ffffff;
+    padding-bottom: 15px;
+    margin-left: 403px;
+    margin-bottom: 50px;
+}
+
+.sphere-btn::before{
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    top: 10px;
+    position: relative;
+    background: url('../img/btn-project.png') no-repeat;
+    margin-right: 10px;
+}
+
+
+/* section-4 */
+
+.choose-section{
+    padding-top: 105px;
+    padding-bottom: 250px;
+    background: url('../img/choose-bg.png') no-repeat;
+    background-size: cover;
+}
+
+.choose-caption{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 350;
+    color: #ffffff;
+    margin-bottom: 100px;
+    font-family: "VinSansPro";
+}
+
+.choose-text-1{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.select-choose-text{
+    color: #F29F05;
+    font-weight: 350;
+    font-family: "VinSansPro";
+}
+
+.text-choose-weignt{
+    font-weight: 550;
+}
+
+.select-choose-text::before,.choose-description::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.select-choose-text::after,.choose-description::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.choose-description{
+    background-color: #000000;
+    color: #F29F05;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 350;
+}
+
+/* section-5 */
+
+.slider-prog{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #20201B;
+}
+
+.slider-prog-caption{
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 70px;
+    font-family: "VinSansPro";
+}
+
+.btn-prev,.btn-next{
+    color: var(--swiper-theme-color-new)!important;
+}
+
+:root{
+    --swiper-theme-color-new:#F29F05;
+}
+
+
+
+
+/* section-6 */
+
+.funckhion-section{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background: url('../img/bg-fuhc.png') no-repeat;
+    background-color: #282823;
+    background-position: top right;
+    border-style: solid;
+    border-top: 2px;
+    border-image: url('../img/Vector5.svg') 5 fill repeat;
+}
+
+.position-funckhion-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.funckhion-caption{
+    text-align: center;
+    color: #DB3C71;
+    font-size: 40px;
+    font-weight: 350;
+    margin-bottom: 150px;
+    font-family: "VinSansPro";
+}
+
+.funckhion-card-list li{
+    margin-bottom: 10px;
+}
+
+.funckhion-card-list li::before{
+    content: ">";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.funckhion-card-list .funckhion-list-item::before{
+    color: #90D7EE;
+}
+
+.funckhion-caption::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.funckhion-caption::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.funckhion-card-list li{
+    margin-bottom: 15px;
+}
+
+.card-func-subtext{
+    margin-bottom: 30px;
+}
+
+.card-func{
+    width: 585px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 55px;
+}
+
+.card-func-1{
+    border: 3px solid #90D7EE;
+    margin-left: 200px;
+    margin-right: 25px;
+    padding-top: 0;
+}
+
+.card-func-1::before{
+    content: " ";
+    width: 2px;
+    height: 135px;
+    display: block;
+    position: relative;
+    top: -140px;
+    left: 275px;
+    background: url('../img/Vector-vertical.svg') no-repeat;
+}
+
+.card-func-1::after{
+    content: " ";
+    width: 330px;
+    height: 2px;
+    display: inline-block;
+    position: relative;
+    top: -300px;
+    left: 540px;
+    background: url('../img/Vector.svg') no-repeat;
+}
+
+.card-func-2::after{
+    content: " ";
+    width: 2px;
+    height: 260px;
+    display: inline-block;
+    position: relative;
+    top: 640px;
+    left: 415px;
+    background: url('../img/Vector59.svg') no-repeat;
+}
+
+.funckhion-card-list{
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.card-func-text{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: "VinSansPro";
+}
+
+.card-color-number-1{
+    color: #90D7EE;
+}
+
+.card-func-subtext{
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+.card-func-2{
+    width: 650px;
+    background: url('../img/phone.png') 0 no-repeat;
+}
+
+
+.card-func-3{
+    margin-top: 200px;
+    margin-left: 60px;
+    margin-right: 150px;
+    width: 800px;
+    background: url('../img/tablet.png') 0 no-repeat;
+    background-size: contain;
+}
+
+.card-func-3::after{
+    content: " ";
+    width: 2px;
+    height: 135px;
+    display: block;
+    position: relative;
+    top: -140px;
+    left: 820px;
+    background: url('../img/Vector-vertical.svg') no-repeat;
+    transform: rotate(90deg);
+}
+
+.card-func-3::before{
+    content: " ";
+    width: 2px;
+    height: 350px;
+    display: block;
+    position: relative;
+    top: 510px;
+    left: 360px;
+    background: url('../img/Vector61.svg') no-repeat;
+}
+
+.card-func-4{
+    border: 3px solid #B8D941;
+    margin-top: 250px;
+}
+
+.card-func-5{
+    border: 3px solid #DB3C71;
+    margin-top: 280px;
+    margin-left: 150px;
+    margin-right: 80px;
+}
+
+.card-func-6{
+    width: 650px;
+    background: url('../img/phone2.png') 0% 100% no-repeat;
+    background-size: contain;
+}
+
+.card-func-6::before{
+    content: " ";
+    width: 350px;
+    height: 2px;
+    display: block;
+    position: relative;
+    top: 500px;
+    left: -130px;
+    background: url('../img/Vector62.svg') no-repeat;
+}
+
+.card-color-number-3{
+    color: #DB3C71;
+}
+
+
+.funckhion-card-list .admin-list-item::before{
+    color: #B8D941;
+}
+
+.card-color-number-2{
+    color: #B8D941;
+}
+
+.funckhion-card-list .application-list-item::before{
+    color: #DB3C71;
+}
+
+
+/* section-7 */
+
+.сonnection-section{
+    padding-top: 150px;
+    padding-bottom: 120px;
+    background-color: #282823;
+}
+
+.сonnection-caption{
+    color: #B8D941;
+    text-align: center;
+    font-weight: 350;
+    font-size: 40px;
+    margin-top: 350px;
+    font-family: "VinSansPro";
+}
+
+.сonnection-caption::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.сonnection-caption::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.сonnection-card{
+    display: flex;
+    align-items: flex-start;
+}
+
+.сonnection-card-number{
+    color: #B8D941;
+    font-size: 64px;
+    font-weight: 300;
+    padding: 20px;
+    margin-right: 20px;
+    border:3px solid #B8D941;
+    margin-top: 30px;
+    font-family: "VinSansPro";
+}
+
+.сonnection-card-text{
+    width: 400px;
+    padding-top: 5px;
+}
+
+.сonnection-card-caption{
+    font-size: 23px;
+    font-weight: 400;
+    color: #B8D941;
+    font-family: "VinSansPro";
+}
+
+.сonnection-card-list{
+    font-size: 22px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.сonnection-card-list li::before{
+    content: ">";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #B8D941;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.card-list-1{
+    margin-bottom: 15px;
+}
+
+.сonnection-card-1::before{
+    content: " ";
+    width: 2px;
+    height: 250px;
+    display: block;
+    position: relative;
+    top: -150px;
+    left: 40px;
+    background: url('../img/Vector1.svg') no-repeat;
+}
+
+.сonnection-card-1::after{
+    content: " ";
+    width: 2px;
+    height: 250px;
+    display: block;
+    position: relative;
+    top: 110px;
+    left: -464px;
+    background: url('../img/Vector1.svg') no-repeat;
+}
+
+.сonnection-card-2{
+    margin-left: 0px;
+    margin-top: -25px;
+}
+
+.сonnection-card-text-2{
+    width: 590px;
+}
+
+.сonnection-card-2::before{
+    content: " ";
+    width: 650px;
+    height: 2px;
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 36px;
+    margin-right: 40px;
+    background: url('../img/big-big-vector.svg') no-repeat;
+}
+
+.сonnection-card-3::after{
+    content: " ";
+    width: 705px;
+    height: 330px;
+    display: block;
+    position: relative;
+    top: -300px;
+    left: -465px;
+    background: url('../img/Vector68new.svg') no-repeat;
+}
+
+.сonnection-card-3{
+    margin-top: 150px;
+}
+
+.сonnection-card-4::before{
+    content: " ";
+    width: 665px;
+    height: 330px;
+    display: block;
+    position: relative;
+    top: -87px;
+    left: 38px;
+    background: url('../img/Vector69n.svg') no-repeat;
+}
+
+.сonnection-card-4{
+    margin-top: -130px;
+}
+
+
+/* section-8 */
+
+.rate-section{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #353533;
+}
+
+.rate-caption{
+    color: #9D85F2;
+    font-size: 40px;
+    font-weight: 350;
+    text-align: center;
+    margin-bottom: 70px;
+    font-family: "VinSansPro";
+}
+
+.rate-caption::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.rate-caption::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.rate-card-position{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.list-card-rate{
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 20px;
+    font-weight: 350;
+    color: #ffffff;
+}
+
+.list-card-rate li{
+    margin-bottom: 10px;
+}
+
+.list-card-rate li::before{
+    content: ">";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.list-card-rate .list-item-base::before{
+    color: #90D7EE;
+}
+
+.list-card-rate .list-item-standart::before{
+    color: #B8D941;
+}
+
+.list-card-rate .list-item-premiym::before{
+    color: #DB3C71;
+}
+
+.rate-card{
+    width: 500px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.base-card{
+    border: 3px solid #90D7EE;
+    margin-right: 30px;
+}
+
+.base-caption{
+    color: #90D7EE;
+}
+
+.choose-price{
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 350;
+}
+
+.choose-text{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 350;
+    text-align: center;
+    margin-bottom: 132px;
+}
+
+.choose-text::after{
+    content: "+";
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: relative;
+    left: 230px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+.select-choose{
+    font-family: "VinSansPro";
+}
+
+.select-choose::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.select-choose::after{
+    content: ">";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.base{
+    color: #90D7EE;
+}
+
+.standart-card{
+    border: 3px solid #B8D941;
+    margin-right: 30px;
+}
+
+.standart-caption{
+    color: #B8D941;
+}
+
+.premiym-card{
+    border: 3px solid #DB3C71;
+}
+
+.premiym-caption{
+    color: #DB3C71;
+}
+
+.standart{
+    color: #B8D941;
+}
+
+.premiym-text{
+    margin-bottom: 100px;
+}
+
+.choose-addition{
+    color: #ffffff;
+    text-align: right;
+    padding-right: 40px;
+    font-size: 24px;
+}
+
+.packet{
+    font-weight: 700;
+}
+
+.link-packets{
+    border: 3px solid #9D85F2;
+    font-size: 20px;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+
+/* section-9 */
+
+.contacts-section{
+    padding-top: 185px;
+    padding-bottom: 230px;
+    background-color: #20201B;
+}
+
+.contact-caption{
+    font-weight: 350;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 150px;
+    font-family: "VinSansPro";
+}
+
+.contact-caption::before{
+    content: "<";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.contact-caption::after{
+    content: "/>";
+    width: 10px;
+    height: 10px;
+    position: relative;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.contact-caption-color{
+    color: #DB3C71;
+}
+
+.contact-form{
+    display: block;
+}
+
+.contact-input{
+    display: block;
+    width: 700px;
+    height: 60px;
+    background: none;
+    border: 2px dashed #65655C;
+    margin-bottom: 10px;
+}
+
+.contact-label{
+    display: block;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+.area{
+    width: 700px;
+    height: 160px;
+    resize: none;
+    margin-bottom: 50px;
+}
+
+.contacts-btn{
+    width: 315px;
+    height: 80px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    background: none;
+    border: 1px solid #B8D941;
+    margin-bottom: 50px;
+}
+
+
+.contacts-btn::before{
+    content: " ";
+    background: url('../img/icon-btn.svg') no-repeat;
+    width: 32px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-right: 20px;
+}
+
+.contact-form-position{
+    display: flex;
+}
+
+.contact-adres-caption{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-bottom: -5px;
+}
+
+.contact-adres{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #737370;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.contact-number{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-number::before{
+    content: " ";
+    width: 50px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    background: url('../img/social.svg') no-repeat;
+    margin-right: 10px;
+}
+
+.contact-form{
+    margin-right: 250px;
+}
+
+.position-adres{
+    margin-top: 120px;
+}
+
+
+/* Стили footer */
+
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-color: #030403;
+}
