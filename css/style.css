@@ -1958,8 +1958,166 @@ img{
 }
 
 @media (max-width: 320px){
-    .container{
-        /* max-width: 310px; */
+    .header-container{
+        width: 310px;
+     }
+ 
+     .big-container{
+         width: 310px;
+     }
+ 
+     .container{
+         width: 310px;
+     }
+
+     .main-caption {
+        font-size: 35px;
     }
+
+    .main-subtitle {
+        font-size: 22px;
+    }
+
+    .top-text {
+        margin-left: -53px;
+        width: 310px;
+        font-size: 21px;
+        margin-left: 0px;
+    }
+
+    .top-btn {
+        font-size: 20px;
+        width: 305px;
+        height: 65px;
+        padding-bottom: 10px;
+    }
+
+    .caption-section-slide {
+        font-size: 20px;
+        margin-left: -40px;
+        width: 300px;
+    }
+
+    .Advantages-slide1,.Advantages-slide2,.Advantages-slide3,.Advantages-slide4{
+        max-width: 300px;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        margin-right: 0px;
+        height: 600px !important;
+    }
+
+    .slider-text{
+        padding-left: 10px;
+        padding-right: 0px;
+        font-size: 18px;
+    }
+
+    .Advantages-slider-caption{
+        padding-left: 10px;
+        padding-right: 0px;
+        font-size: 23px;
+    }
+
+    .swiper-pagination-bullet {
+        left: 50px;
+        top: 965px;
+        margin-right: 40px !important;
+    }
+
+    .bullet{
+        margin-right: 20px;
+    }
+
+    .sphere-caption{
+        font-size: 21px;
+    }
+
+    .sphere-card{
+        height: 600px;
+    }
+
+    .retail-card, .digital-card, .public-card, .beauty-card, .farm-card, .med-card{
+        margin-left: 0px;
+    }
+
+    .med-card,.farm-card{
+        width: 310px;
+    }
+
+    .sphere-btn {
+        margin-left: 5px;
+        width: 300px;
+    }
+
+    .choose-caption{
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .choose-text-1 {
+        font-size: 18px;
+    }
+
+    .choose-description {
+        font-size: 18px;
+    }
+
+    .slider-prog-caption {
+        font-size: 25px;
+    }
+
+    .funckhion-caption {
+        font-size: 21px;
+    }
+
+    .card-func-1 {
+        margin-left: 15px;
+    }
+
+    .card-func-2 {
+        margin-left: 5px;
+    }
+
+    .card-func-4 {
+        left: 15px;
+        width: 281px;
+    }
+
+    .card-func-3 {
+        left: 0px;
+        top: 825px;
+        margin-left: 14px;
+    }
+
+    .card-func-5 {
+        margin-left: 0px;
+        margin-top: -585px;
+    }
+
+    .card-func-6 {
+        margin-left: 0;
+    }
+
+    .сonnection-caption {
+        font-size: 25px;
+    }
+
+    .base-card, .premiym-card, .standart-card {
+        margin-left: 5px;
+        width: 300px;
+    }
+    
+    .rate-caption {
+        font-size: 30px;
+    }
+
+    .contact-form-position {
+        display: block;
+    }
+
+    .area, .contact-input {
+        width: 300px;
+    }
+
 }
 
