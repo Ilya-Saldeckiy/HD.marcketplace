@@ -148,7 +148,7 @@ img{
     width: 50px;
     position: absolute;
     top: 30px;
-    right: 45px;
+    right: 17px;
     display: none;
 }
 
@@ -245,7 +245,7 @@ img{
     padding-bottom: 15px;
   }
 
-  .menu-list-item a{
+  .mobile-menu__list a{
       color: #000000;
   }
 
