@@ -13,7 +13,7 @@ html{
 body{
 	margin: 0;
 	padding: 0;
-	font-family:'VinSansPro',Helvetica;
+	font-family:'Helvetica','VinSansPro','Gilroy',sans-serif;
 	font-size: 18px;
 	font-weight: 400;
     line-height: 32px;
@@ -86,6 +86,7 @@ img{
     border: none;
     outline: none;
     cursor: pointer;
+    font-family: 'Gilroy';
 }
 
 /* Стили шапки */
@@ -231,7 +232,7 @@ img{
     opacity: 1;
     transition: .5s;
     overflow: hidden;
-    background-color: #90D7EE;
+    background-color: #F29F05;
   }
   .mobile-menu__list {
     transition: .5s;
@@ -243,9 +244,13 @@ img{
     font-size: 26px;
     padding-bottom: 15px;
   }
+
+  .menu-list-item a{
+      color: #000000;
+  }
+
   .mobile-menu__link {
     text-decoration: none;
-    color: #fff;
   }
   .mobile-menu__checkbox {
     display: none;
@@ -1490,7 +1495,7 @@ img{
     background-color: #030403;
 }
 
-@media (max-width: 1441px){
+@media (max-width: 1551px){
     .menu-list-item:not(:last-child) {
         margin-right: 25px;
     }
@@ -1512,21 +1517,22 @@ img{
         margin-right: 100px;
     }
 
-    .card-func-3::after{
-        height: 55px;
-        top: -110px;
-        left: 375px;
+    .card-func-3::before{
+        top: 460px;
+        left: 110px;
+        height: 240px;
     }
 
-    .card-func-3::before{
-        top: 410px;
-        left: 110px;
+    .card-func-3::after {
+        height: 90px;
+        top: -40px;
+        left: 640px;
     }
 
     .card-func-6::before{
-        top: 170px;
-        left: -40px;
-        width: 80px;
+        top: 260px;
+        left: -125px;
+        width: 280px;
     }
 
     .сonnection-caption{
@@ -1542,8 +1548,13 @@ img{
         margin-top: 120px;
     }
 
-    .rate-card{
+    .rate-card {
         width: 450px;
+        height: 720px;
+    }
+
+    .contact-caption{
+        font-size: 30px;
     }
 }
 
@@ -1730,7 +1741,7 @@ img{
     }
 
     .logo-footer{
-        margin-left: 400px;
+        margin-left: 45% !important;
         margin-right: 0;
     }
 
@@ -1750,7 +1761,7 @@ img{
 
 }
 
-@media (max-width: 779px){
+@media (max-width: 920px){
     .header-container{
        width: 720px;
     }
@@ -1959,7 +1970,7 @@ img{
 
 @media (max-width: 511px){
     .header-container{
-        width: 310px;
+        width: 450px;
      }
  
      .big-container{
@@ -1994,7 +2005,7 @@ img{
 
     .caption-section-slide {
         font-size: 20px;
-        margin-left: -40px;
+        margin-left: 40px;
         width: 300px;
     }
 
@@ -2085,7 +2096,7 @@ img{
 
     .card-func-3 {
         left: 0px;
-        top: 825px;
+        top: 585px;
         margin-left: 14px;
     }
 
@@ -2119,5 +2130,101 @@ img{
         width: 300px;
     }
 
+    .list-card{
+        padding-right: 20px;
+    }
+
+    .card-func-text{
+        font-size: 20px;
+    }
+
+    .card-func-subtext{
+        font-size: 18px;
+    }
+
+    .card-func{
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+
+    .funckhion-card-list li {
+        font-size: 16px;
+    }
+
+    .сonnection-card-list{
+        font-size: 18px;
+    }
+
+    .сonnection-card-caption{
+        font-size: 20px;
+    }
+
+    .rate-card {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .choose-price{
+        font-size: 25px;
+    }
+
+    .list-card-rate {
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    .choose-text::after{
+        left: 130px;
+    }
+
+    .choose-addition{
+        font-size: 20px;
+    }
+
+    .contact-caption {
+        font-size: 18px;
+        line-height: 36px;
+        margin-bottom: 40px;
+    }
+
+    .contacts-btn{
+        margin-bottom: 0px;
+    }
+
+    .logo-footer{
+        margin-left: 25% !important;
+    }
+}
+
+@media (max-width: 450px){
+    .header-container{
+        width: 390px;
+    }
+
+    .caption-section-slide{
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 390px){
+    .header-container{
+        width: 320px;
+    }
+
+    .caption-section-slide{
+        margin-left: -40px;
+    }
+}
+
+
+@media (max-width: 320px){
+    .header-container{
+        width: 320px;
+    }
+
+    .caption-section-slide{
+        margin-left: -40px;
+    }
 }
 
