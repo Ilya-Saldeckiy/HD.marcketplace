@@ -217,13 +217,14 @@ img{
     top: -8px;
   }
   .mobile-menu__container {
-    position: fixed;
+    position: absolute;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 300px;
-    top: 90px;
+    height: 450px;
+    top: 65px;
     right: 0;
     z-index: 999;
     height: 0;
@@ -253,7 +254,7 @@ img{
     opacity: 1;
   }
   .mobile-menu__checkbox:checked ~ .mobile-menu__container {
-    height: 100%;
+    height: 400px;
   }
   .mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon {
     background: transparent;
@@ -377,6 +378,10 @@ img{
     padding-bottom: 100px;
 }
 
+.mobile-caption-slide{
+    display: none;
+}
+
 .Advantages-wrapper{
     height: auto !important;
 }
@@ -428,7 +433,7 @@ img{
 }
 
 .caption-section-slide::before{
-    content: "<- - -";
+    content: "< - - -";
     width: 10px;
     height: 10px;
     position: relative;
@@ -476,6 +481,11 @@ img{
 .Advantages-slide4{
     background: url('../img/slider-img4.png') 18% 15% #2A2A24 no-repeat;
     margin-right: 50px;
+}
+
+
+.caption-section-slide{
+    display: none;
 }
 
 
@@ -1503,13 +1513,24 @@ img{
     }
 
     .card-func-3::after{
-        height: 90px;
-        top: -150px;
-        left: 640px;
+        height: 55px;
+        top: -110px;
+        left: 375px;
     }
 
     .card-func-3::before{
-        top: 465px;
+        top: 410px;
+        left: 110px;
+    }
+
+    .card-func-6::before{
+        top: 170px;
+        left: -40px;
+        width: 80px;
+    }
+
+    .сonnection-caption{
+        margin-top: 200px;
     }
 
     .card-func-1{
@@ -1518,7 +1539,7 @@ img{
 
     .card-func-5{
         margin-left: 50px;
-        margin-top: 225px;
+        margin-top: 120px;
     }
 
     .rate-card{
@@ -1562,11 +1583,12 @@ img{
 
     .caption-section-slide{
         left: 55px;
-        width: 410px;
+        width: 280px;
+        text-align: center;
     }
 
     .bullet::after{
-        width: 420px;
+        width: 410px;
     }
 
     .swiper-pagination-bullet{
@@ -1625,11 +1647,313 @@ img{
         line-height: 70px;
     }
 
+    .funckhion-caption{
+        font-size: 35px;
+    }
+
+    .card-func{
+        width: 475px;
+    }
+
+    .card-func-2{
+        width: 400px;
+        background-position: 50% 0%;
+    }
+
+    .card-func-3{
+        width: 400px;
+        margin-right: 65px;
+    }
+
+    .card-func-5{
+        margin-right: 0px;
+    }
+
+    .card-func-6 {
+        width: 400px;
+        background-size: cover;
+        background-position: 50% 31%;
+        margin-top: 230px;
+    }
+
+    .сonnection-card-3::after {
+        background-position: 100% 100%;
+        background-size: 500px;
+    }
+
+    .сonnection-card-3{
+        margin-top: 15px;
+    }
+
+    .сonnection-card-4::before {
+        width: 449px;
+        background-size: 630px;
+        margin-right: 50px;
+    }
+
+    .сonnection-card-4::before {
+    content: " ";
+    width: 449px;
+    height: 330px;
+    display: block;
+    position: relative;
+    top: -87px;
+    left: 38px;
+    background: url(../img/Vector69n.svg) no-repeat;
+    background-size: 630px;
+    margin-right: 50px;
+    }
+
+    .choose-text{
+        margin-bottom: 100px;
+    }
+
+    .base-card{
+        margin-left: 45px;
+    }
+
+    .premiym-card {
+        margin-left: 285px;
+        margin-top: 20px;
+    }
+
+    .choose-addition{
+        text-align: center;
+    }
+
+    .contact-form{
+        margin-right: 40px;
+    }
+
+    .footer-menu{
+        display: none;
+    }
+
+    .logo-footer{
+        margin-left: 400px;
+        margin-right: 0;
+    }
+
+    .card-func-1::after{
+        left: 420px;
+        width: 60px;
+    }
+
+    .card-func-2::after{
+        top: 660px;
+        left: 150px;
+    }
+
+    .card-func-4{
+        margin-top: 175px;
+    }
+
+}
+
+@media (max-width: 779px){
+    .header-container{
+       width: 720px;
+    }
+
+    .big-container{
+        width: 750px;
+    }
+
+    .container{
+        width: 620px;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+
+    .main-subtitle{
+        line-height: 65px;
+    }
+
+    .top-text{
+        margin-left: 15px;
+    }
+
+    .mobile-caption-slide{
+        display: block;
+        top: 0;
+        width: 615px;
+    }
+
+    .Advantages-section{
+        padding-top: 10px;
+    }
+
+    .swiper-pagination-bullet{
+        left: 150px;
+        top: 850px;
+    }
+
+    .bullet::after{
+        display: none;
+    }
+
+    .sphere-caption{
+        font-size: 30px;
+    }
+
+    .сonnection-card-2::before{
+        display: none;
+    }
+
+    .сonnection-card-3::after{
+        display: none;
+    }
+
+    .сonnection-card-4::before{
+        display: none;
+    }
+
+    .сonnection-card-4{
+        margin-top: 0px;
+    }
+
+    .rate-card-position{
+        display: block;
+    }
+
+    .base-card,.premiym-card,.standart-card{
+        margin-left: 150px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .link-packets{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .retail-card, .digital-card, .public-card,.beauty-card,.farm-card,.med-card {
+        margin-left: 115px;
+        margin-right: 0px;
+    }
+
+    .farm-card,.public-card{
+        margin-bottom: 20px;
+    }
+
+    .sphere-btn {
+        margin-left: 105px;
+    }
+
+    .sphere-card{
+        height: 560px;
+    }
+
+    .area,.contact-input{
+        width: 400px;
+    }
+
+    .card-func-1{
+        margin-left: 140px;
+    }
+
+    .card-func-2{
+        height: 500px;
+        background-size: cover;
+        margin-left: 175px;
+    }
+
+    .card-func-4 {
+        margin-top: 175px;
+        top: -850px;
+        left: 125px;
+        position: relative;
+    }
+
+    .card-func-3 {
+        width: 400px;
+        height: 500px;
+        margin-right: 0;
+        position: relative;
+        top: 550px;
+        left: 100px;
+    }
+
+    .card-func-3::before {
+        display: none;
+    }
+
+    .card-func-5 {
+        margin-right: 0px;
+        margin-top: -450px;
+        margin-left: 125px;
+    }
+
+    .card-func-6 {
+        width: 400px;
+        height: 500px;
+        margin-top: 0px;
+        margin-left: 170px;
+    }
+
+    .card-func-1::before,.card-func-1::after,.card-func-2::after,.card-func-3::after,.card-func-6::before{
+        display: none;
+    }
+
+    .funckhion-caption{
+        line-height: 70px;
+    }
+
+    .slider-prog-caption{
+        font-size: 35px
+    }
 }
 
 @media (max-width: 667px){
-    .container{
-        /* max-width: 345px; */
+    .header-container{
+        width: 620px;
+     }
+ 
+     .big-container{
+         width: 620px;
+     }
+ 
+     .container{
+         width: 620px;
+     }
+
+     .caption-section-slide{
+         font-size: 28px;
+         margin-left: -5px;
+     }
+
+     .card-func-5{
+        margin-left: 80px;
+     }
+
+     .card-func-6{
+         margin-left: 115px;
+     }
+
+     .card-func-3{
+         left: 65px;
+     }
+
+     .card-func-4{
+         left: 80px;
+     }
+
+    .card-func-1{
+        margin-left: 85px;
+    }
+
+    .card-func-2{
+        margin-left: 115px;
+    }
+
+    .base-card, .premiym-card, .standart-card {
+        margin-left: 95px;
+    }
+
+    .choose-addition{
+        margin-left: 50px;
     }
 }
 
