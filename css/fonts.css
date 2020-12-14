@@ -3,48 +3,8 @@
     font-weight: 300;
     font-style: normal;
     src: 
-        url("../fonts/VinSansPro-Light.woff2") format("woff2"),
-        url("../fonts/VinSansPro-Light.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face{
-    font-family: "VinSansPro";
-    font-weight: 400;
-    font-style: normal;
-    src: 
-        url("../fonts/VinSansPro-Regular.woff2") format("woff2"),
-        url("../fonts/VinSansPro-Regular.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face{
-    font-family: "VinSansPro";
-    font-weight: 350;
-    font-style: normal;
-    src: 
-        url("../fonts/VinSansPro-Medium.woff2") format("woff2"),
-        url("../fonts/VinSansPro-Medium.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face{
-    font-family: "VinSansPro";
-    font-weight: 500;
-    font-style: normal;
-    src: 
-        url("../fonts/VinSansPro-SemiBold.woff2") format("woff2"),
-        url("../fonts/VinSansPro-SemiBold.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face{
-    font-family: "VinSansPro";
-    font-weight: 700;
-    font-style: normal;
-    src: 
-        url("../fonts/VinSansPro-Bold.woff2") format("woff2"),
-        url("../fonts/VinSansPro-Bold.woff") format("woff");
+        url("../fonts/VinSlabPro-Light.woff2") format("woff2"),
+        url("../fonts/Mint-Type-VinSlabPro-Light.woff") format("woff");
     font-display: swap;
 }
 
