@@ -1,60 +1,54 @@
 @font-face{
     font-family: "VinSansPro";
-    font-weight: 300;
-    font-style: normal;
-    src: 
-        url("../fonts/VinSlabPro-Light.woff2") format("woff2"),
-        url("../fonts/Mint-Type-VinSlabPro-Light.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face{
-    font-family: "Helvetica";
-    font-weight: 300;
-    font-style: normal;
-    src: 
-        url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"),
-        url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face{
-    font-family: "Helvetica";
-    font-weight: 400;
-    font-style: normal;
-    src: 
-        url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
-        url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
-    font-display: swap;
-}
-
-@font-face{
-    font-family: "Helvetica";
     font-weight: 350;
     font-style: normal;
     src: 
-        url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"),
-        url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+        url("../fonts/VinSlabPro-Light.ttf") format("ttf");
     font-display: swap;
 }
 
 @font-face{
-    font-family: "Helvetica";
+    font-family: "HelveticaCur";
+    font-weight: 300;
+    font-style: normal;
+    src: 
+    url("../fonts/VinSlabPro-Light.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "HelveticaCur";
+    font-weight: 400;
+    font-style: normal;
+    src: 
+        url("../fonts/HelveticaNeueCyr-Roman.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "HelveticaCur";
+    font-weight: 350;
+    font-style: normal;
+    src: 
+        url("../fonts/HelveticaNeueCyr-UltraLight.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face{
+    font-family: "HelveticaCur";
     font-weight: 500;
     font-style: normal;
     src: 
-        url("../fonts/VinSansPro-SemiBold.woff2") format("woff2"),
-        url("../fonts/VinSansPro-SemiBold.woff") format("woff");
+        url("../fonts/HelveticaNeueCyr-Medium.ttf") format("ttf");
     font-display: swap;
 }
 
 @font-face{
-    font-family: "Helvetica";
+    font-family: "HelveticaCur";
     font-weight: 700;
     font-style: normal;
     src: 
-        url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"),
-        url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
+        url("../fonts/HelveticaNeueCyr-Bold.ttf") format("ttf");
     font-display: swap;
 }
 

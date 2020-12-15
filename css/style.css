@@ -13,7 +13,7 @@ html{
 body{
 	margin: 0;
 	padding: 0;
-	font-family:'Helvetica','VinSansPro','Gilroy',sans-serif;
+	font-family:'HelveticaCur','VinSansPro','Gilroy',sans-serif;
 	font-size: 18px;
 	font-weight: 400;
     line-height: 32px;
@@ -670,6 +670,7 @@ img{
     padding-bottom: 20px;
     margin-left: 403px;
     margin-bottom: 50px;
+    border-radius: 3px;
 }
 
 .sphere-btn::before{
@@ -1558,7 +1559,98 @@ img{
     }
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1331px){
+    .menu-list-item:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    .logo{
+        margin-left: 10px;
+    }
+
+    .big-container{
+        width: 1280px;
+    }
+
+    .header-container{
+        width: 1280px;
+    }
+
+    .footer-menu{
+        display: none;
+    }
+
+    .logo-footer{
+        margin-left: 45% !important;
+        margin-right: 0;
+    }
+
+    /* .mobile-menu{
+        display: block;
+    }
+
+    .menu-des{
+        display: none;
+    } */
+
+    .card-func-2 {
+        width: 600px;
+        background: url(../img/phone.png) 50% 0 no-repeat;
+    }
+
+    .card-func-3 {
+        width: 545px;
+        margin-right: 70px;
+    }
+
+    .card-func-6 {
+        width: 550px;
+        background: url(../img/phone2.png) 0% 100% no-repeat;
+        background-size: contain;
+    }
+
+    .card-func-6::before {
+        top: 320px;
+        left: -125px;
+        width: 240px;
+    }
+
+    .card-func-3::before {
+        top: 425px;
+        left: 110px;
+        height: 280px;
+    }
+
+    .card-func-3::after {
+        height: 55px;
+        top: -60px;
+        left: 525px;
+    }
+
+    .card-func-2::after {
+        content: " ";
+        width: 2px;
+        height: 260px;
+        display: inline-block;
+        position: relative;
+        top: 660px;
+        left: 250px;
+        background: url(../img/Vector59.svg) no-repeat;
+    }
+
+    .card-func-1::after {
+        width: 140px;
+    }
+
+    .menu-list-item:not(:last-child) {
+        margin-right: 40px;
+    }
+
+
+
+}
+
+/* @media (max-width: 1025px){
     .mobile-menu{
         display: block;
     }
@@ -1673,7 +1765,11 @@ img{
 
     .card-func-3{
         width: 400px;
-        margin-right: 65px;
+        margin-right: 50px;
+    }
+
+    .bullet::after {
+        width: 300px;
     }
 
     .card-func-5{
@@ -1759,11 +1855,23 @@ img{
         margin-top: 175px;
     }
 
-}
+} */
 
-@media (max-width: 920px){
+@media (max-width: 1025px){
     .header-container{
        width: 720px;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .menu-des{
+        display: none;
+    }
+
+    .top-text{
+        width: 580px;
     }
 
     .big-container{
@@ -1776,6 +1884,33 @@ img{
 
     .logo{
         margin-left: 0;
+    }
+
+    .footer-menu{
+        display: none;
+    }
+
+    .farm-card, .public-card {
+        margin-bottom: 20px;
+        margin-top: 0 !important;
+    }
+
+    .med-card{
+        margin-top: 0;
+    }
+
+    .card-func-3 {
+        width: 400px;
+        height: 500px;
+        margin-right: 0;
+        position: relative;
+        top: 430px !important;
+        left: 100px;
+    }
+
+    .logo-footer{
+        margin-left: 45% !important;
+        margin-right: 0;
     }
 
     .main-subtitle{
