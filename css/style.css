@@ -141,7 +141,7 @@ img{
 
 .menu-list-item a{
     color: #ffffff;
-    font-family: Helvetica;
+    font-family: "HelveticaCur";
 }
 
 .submenu{
@@ -330,7 +330,7 @@ img{
     color: #ffffff;
     margin-left: 215px;
     text-align: center;
-    font-family: Helvetica;
+    font-family: "HelveticaCur";
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
@@ -1408,7 +1408,7 @@ img{
     color: #ffffff;
     font-weight: 300;
     font-size: 18px;
-    font-family: Helvetica;
+    font-family: "HelveticaCur";
 }
 
 .area{
